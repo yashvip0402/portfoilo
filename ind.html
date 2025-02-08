@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> yashvi | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Navbar -->
+    <header class="bg-blue-600 text-white p-4 shadow-md">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">Your Name</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-gray-200">About</a></li>
+                <li><a href="#projects" class="hover:text-gray-200">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-800 text-white h-96 flex items-center justify-center text-center">
+        <div>
+            <h2 class="text-5xl font-bold mb-2">Hello, I'm yashvi</h2>
+            <p class="text-xl mb-4">Web Developer | Designer | Creator</p>
+            <a href="#contact" class="bg-yellow-400 text-gray-900 px-6 py-2 rounded-lg hover:bg-yellow-300">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-6">About Me</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                I'm a passionate web developer with a focus on creating user-friendly and visually appealing websites. 
+                I specialize in front-end development using HTML, CSS, JavaScript, and modern frameworks like React.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-6">My Pprtfolio</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Project One</h3>
+                    <p class="text-gray-600 mb-4">A web app built using React and Tailwind CSS for responsive design.</p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800">View Project</a>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Project Two</h3>
+                    <p class="text-gray-600 mb-4">A personal blog website using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800">View Project</a>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Project Three</h3>
+                    <p class="text-gray-600 mb-4">An e-commerce platform built with Vue.js and Firebase for real-time data.</p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-6">Contact Me</h2>
+            <p class="text-lg mb-6">Feel free to reach out to me via email or social media!</p>
+            <form action="#" method="POST" class="space-y-4 max-w-lg mx-auto">
+                <input type="text" name="name" placeholder="Your Name" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <input type="email" name="email" placeholder="Your Email" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <textarea name="message" placeholder="Your Message" rows="4" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+                <button type="submit" class="bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg hover:bg-yellow-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
